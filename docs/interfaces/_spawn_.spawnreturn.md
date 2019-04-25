@@ -10,10 +10,10 @@
 
 ### Properties
 
-- [code](_spawn_.spawnreturn.md#code)
-- [err](_spawn_.spawnreturn.md#err)
-- [out](_spawn_.spawnreturn.md#out)
-- [signal](_spawn_.spawnreturn.md#signal)
+* [code](_spawn_.spawnreturn.md#code)
+* [err](_spawn_.spawnreturn.md#err)
+* [out](_spawn_.spawnreturn.md#out)
+* [signal](_spawn_.spawnreturn.md#signal)
 
 ---
 
@@ -21,40 +21,38 @@
 
 <a id="code"></a>
 
-### code
+###  code
 
-**● code**: _`number`_
+**● code**: *`number`*
 
-_Defined in [spawn.ts:24](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L24)_
+*Defined in spawn.ts:24*
 
----
-
+___
 <a id="err"></a>
 
-### err
+###  err
 
-**● err**: _`boolean`_
+**● err**: *`boolean`*
 
-_Defined in [spawn.ts:25](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L25)_
+*Defined in spawn.ts:25*
 
----
-
+___
 <a id="out"></a>
 
-### out
+###  out
 
-**● out**: _`string`_
+**● out**: *`string`*
 
-_Defined in [spawn.ts:26](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L26)_
+*Defined in spawn.ts:26*
 
----
-
+___
 <a id="signal"></a>
 
-### signal
+###  signal
 
-**● signal**: _`number`_
+**● signal**: *`number`*
 
-_Defined in [spawn.ts:27](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L27)_
+*Defined in spawn.ts:27*
 
----
+___
+

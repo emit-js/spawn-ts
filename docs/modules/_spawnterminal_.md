@@ -6,20 +6,20 @@
 
 ### Modules
 
-- ["@emit-js/emit"](_spawnterminal_.__emit_js_emit_.md)
+* ["@emit-js/emit"](_spawnterminal_.__emit_js_emit_.md)
 
 ### Classes
 
-- [SpawnTerminal](../classes/_spawnterminal_.spawnterminal.md)
+* [SpawnTerminal](../classes/_spawnterminal_.spawnterminal.md)
 
 ### Interfaces
 
-- [SpawnTerminalArg](../interfaces/_spawnterminal_.spawnterminalarg.md)
-- [SpawnTerminalReturn](../interfaces/_spawnterminal_.spawnterminalreturn.md)
+* [SpawnTerminalArg](../interfaces/_spawnterminal_.spawnterminalarg.md)
+* [SpawnTerminalReturn](../interfaces/_spawnterminal_.spawnterminalreturn.md)
 
 ### Functions
 
-- [spawnTerminal](_spawnterminal_.md#spawnterminal-1)
+* [spawnTerminal](_spawnterminal_.md#spawnterminal-1)
 
 ---
 
@@ -27,18 +27,19 @@
 
 <a id="spawnterminal-1"></a>
 
-### spawnTerminal
+###  spawnTerminal
 
-▸ **spawnTerminal**(emit: _`Emit`_): `void`
+▸ **spawnTerminal**(emit: *`Emit`*): `void`
 
-_Defined in [spawnTerminal.ts:58](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L58)_
+*Defined in spawnTerminal.ts:58*
 
 **Parameters:**
 
-| Name | Type   |
-| ---- | ------ |
+| Name | Type |
+| ------ | ------ |
 | emit | `Emit` |
 
 **Returns:** `void`
 
----
+___
+

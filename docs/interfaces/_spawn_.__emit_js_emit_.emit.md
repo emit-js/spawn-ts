@@ -10,7 +10,7 @@
 
 ### Methods
 
-- [spawn](_spawn_.__emit_js_emit_.emit.md#spawn)
+* [spawn](_spawn_.__emit_js_emit_.emit.md#spawn)
 
 ---
 
@@ -18,19 +18,20 @@
 
 <a id="spawn"></a>
 
-### spawn
+###  spawn
 
-▸ **spawn**(id: _`EventIdType`_, arg: _[SpawnArg](_spawn_.spawnarg.md)_): `Promise`<[SpawnReturn](_spawn_.spawnreturn.md)>
+▸ **spawn**(id: *`EventIdType`*, arg: *[SpawnArg](_spawn_.spawnarg.md)*): `Promise`<[SpawnReturn](_spawn_.spawnreturn.md)>
 
-_Defined in [spawn.ts:6](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L6)_
+*Defined in spawn.ts:6*
 
 **Parameters:**
 
-| Name | Type                            |
-| ---- | ------------------------------- |
-| id   | `EventIdType`                   |
-| arg  | [SpawnArg](_spawn_.spawnarg.md) |
+| Name | Type |
+| ------ | ------ |
+| id | `EventIdType` |
+| arg | [SpawnArg](_spawn_.spawnarg.md) |
 
 **Returns:** `Promise`<[SpawnReturn](_spawn_.spawnreturn.md)>
 
----
+___
+

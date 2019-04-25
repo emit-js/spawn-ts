@@ -6,6 +6,7 @@
 
 ### Interfaces
 
-- [Emit](../interfaces/_spawnterminal_.__emit_js_emit_.emit.md)
+* [Emit](../interfaces/_spawnterminal_.__emit_js_emit_.emit.md)
 
 ---
+

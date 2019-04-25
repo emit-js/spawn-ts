@@ -10,9 +10,9 @@
 
 ### Properties
 
-- [code](_spawnterminal_.spawnterminalreturn.md#code)
-- [out](_spawnterminal_.spawnterminalreturn.md#out)
-- [signal](_spawnterminal_.spawnterminalreturn.md#signal)
+* [code](_spawnterminal_.spawnterminalreturn.md#code)
+* [out](_spawnterminal_.spawnterminalreturn.md#out)
+* [signal](_spawnterminal_.spawnterminalreturn.md#signal)
 
 ---
 
@@ -20,30 +20,29 @@
 
 <a id="code"></a>
 
-### code
+###  code
 
-**● code**: _`number`_
+**● code**: *`number`*
 
-_Defined in [spawnTerminal.ts:21](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L21)_
+*Defined in spawnTerminal.ts:21*
 
----
-
+___
 <a id="out"></a>
 
-### out
+###  out
 
-**● out**: _`string`_
+**● out**: *`string`*
 
-_Defined in [spawnTerminal.ts:22](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L22)_
+*Defined in spawnTerminal.ts:22*
 
----
-
+___
 <a id="signal"></a>
 
-### signal
+###  signal
 
-**● signal**: _`number`_
+**● signal**: *`number`*
 
-_Defined in [spawnTerminal.ts:23](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L23)_
+*Defined in spawnTerminal.ts:23*
 
----
+___
+

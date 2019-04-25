@@ -10,13 +10,13 @@
 
 ### Properties
 
-- [args](_spawn_.spawnarg.md#args)
-- [command](_spawn_.spawnarg.md#command)
-- [cwd](_spawn_.spawnarg.md#cwd)
-- [exit](_spawn_.spawnarg.md#exit)
-- [json](_spawn_.spawnarg.md#json)
-- [quiet](_spawn_.spawnarg.md#quiet)
-- [save](_spawn_.spawnarg.md#save)
+* [args](_spawn_.spawnarg.md#args)
+* [command](_spawn_.spawnarg.md#command)
+* [cwd](_spawn_.spawnarg.md#cwd)
+* [exit](_spawn_.spawnarg.md#exit)
+* [json](_spawn_.spawnarg.md#json)
+* [quiet](_spawn_.spawnarg.md#quiet)
+* [save](_spawn_.spawnarg.md#save)
 
 ---
 
@@ -26,68 +26,63 @@
 
 ### `<Optional>` args
 
-**● args**: _`string`[]_
+**● args**: *`string`[]*
 
-_Defined in [spawn.ts:14](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L14)_
+*Defined in spawn.ts:14*
 
----
-
+___
 <a id="command"></a>
 
-### command
+###  command
 
-**● command**: _`string`_
+**● command**: *`string`*
 
-_Defined in [spawn.ts:15](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L15)_
+*Defined in spawn.ts:15*
 
----
-
+___
 <a id="cwd"></a>
 
 ### `<Optional>` cwd
 
-**● cwd**: _`string`_
+**● cwd**: *`string`*
 
-_Defined in [spawn.ts:16](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L16)_
+*Defined in spawn.ts:16*
 
----
-
+___
 <a id="exit"></a>
 
 ### `<Optional>` exit
 
-**● exit**: _`boolean`_
+**● exit**: *`boolean`*
 
-_Defined in [spawn.ts:17](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L17)_
+*Defined in spawn.ts:17*
 
----
-
+___
 <a id="json"></a>
 
 ### `<Optional>` json
 
-**● json**: _`boolean`_
+**● json**: *`boolean`*
 
-_Defined in [spawn.ts:18](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L18)_
+*Defined in spawn.ts:18*
 
----
-
+___
 <a id="quiet"></a>
 
 ### `<Optional>` quiet
 
-**● quiet**: _`boolean`_
+**● quiet**: *`boolean`*
 
-_Defined in [spawn.ts:19](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L19)_
+*Defined in spawn.ts:19*
 
----
-
+___
 <a id="save"></a>
 
-### save
+### `<Optional>` save
 
-**● save**: _`boolean`_
+**● save**: *`boolean`*
 
-_Defined in [spawn.ts:20](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawn.ts#L20)_
+*Defined in spawn.ts:20*
 
----
+___
+

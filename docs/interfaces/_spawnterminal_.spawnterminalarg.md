@@ -10,10 +10,10 @@
 
 ### Properties
 
-- [args](_spawnterminal_.spawnterminalarg.md#args)
-- [command](_spawnterminal_.spawnterminalarg.md#command)
-- [cwd](_spawnterminal_.spawnterminalarg.md#cwd)
-- [env](_spawnterminal_.spawnterminalarg.md#env)
+* [args](_spawnterminal_.spawnterminalarg.md#args)
+* [command](_spawnterminal_.spawnterminalarg.md#command)
+* [cwd](_spawnterminal_.spawnterminalarg.md#cwd)
+* [env](_spawnterminal_.spawnterminalarg.md#env)
 
 ---
 
@@ -23,38 +23,36 @@
 
 ### `<Optional>` args
 
-**● args**: _`string`[]_
+**● args**: *`string`[]*
 
-_Defined in [spawnTerminal.ts:14](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L14)_
+*Defined in spawnTerminal.ts:14*
 
----
-
+___
 <a id="command"></a>
 
-### command
+###  command
 
-**● command**: _`string`_
+**● command**: *`string`*
 
-_Defined in [spawnTerminal.ts:15](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L15)_
+*Defined in spawnTerminal.ts:15*
 
----
-
+___
 <a id="cwd"></a>
 
 ### `<Optional>` cwd
 
-**● cwd**: _`string`_
+**● cwd**: *`string`*
 
-_Defined in [spawnTerminal.ts:16](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L16)_
+*Defined in spawnTerminal.ts:16*
 
----
-
+___
 <a id="env"></a>
 
 ### `<Optional>` env
 
-**● env**: _`Record`<`string`, `string`>_
+**● env**: *`Record`<`string`, `string`>*
 
-_Defined in [spawnTerminal.ts:17](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L17)_
+*Defined in spawnTerminal.ts:17*
 
----
+___
+

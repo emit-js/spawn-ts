@@ -1,16 +1,20 @@
-# @emit-js/spawn
+
+@emit-js/spawn
+==============
 
 emit process spawn
 
 ![spawnTs](media/spawn.gif)
 
-## Install
+Install
+-------
 
 ```bash
 npm install @emit-js/emit @emit-js/spawn
 ```
 
-## Setup
+Setup
+-----
 
 ```js
 import { Emit } from "@emit-js/emit"
@@ -20,7 +24,8 @@ const emit = new Emit()
 spawn(emit)
 ```
 
-## Usage
+Usage
+-----
 
 ```js
 await emit.spawn("test", {
@@ -33,7 +38,8 @@ await emit.spawn("test", {
 
 ### External modules
 
-- ["spawn"](modules/_spawn_.md)
-- ["spawnTerminal"](modules/_spawnterminal_.md)
+* ["spawn"](modules/_spawn_.md)
+* ["spawnTerminal"](modules/_spawnterminal_.md)
 
 ---
+

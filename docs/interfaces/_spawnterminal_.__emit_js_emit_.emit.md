@@ -10,7 +10,7 @@
 
 ### Methods
 
-- [spawnTerminal](_spawnterminal_.__emit_js_emit_.emit.md#spawnterminal)
+* [spawnTerminal](_spawnterminal_.__emit_js_emit_.emit.md#spawnterminal)
 
 ---
 
@@ -18,19 +18,20 @@
 
 <a id="spawnterminal"></a>
 
-### spawnTerminal
+###  spawnTerminal
 
-▸ **spawnTerminal**(id: _`EventIdType`_, arg: _[SpawnTerminalArg](_spawnterminal_.spawnterminalarg.md)_): `Promise`<[SpawnTerminalReturn](_spawnterminal_.spawnterminalreturn.md)>
+▸ **spawnTerminal**(id: *`EventIdType`*, arg: *[SpawnTerminalArg](_spawnterminal_.spawnterminalarg.md)*): `Promise`<[SpawnTerminalReturn](_spawnterminal_.spawnterminalreturn.md)>
 
-_Defined in [spawnTerminal.ts:6](https://github.com/emit-js/spawn-ts/blob/c158072/src/spawnTerminal.ts#L6)_
+*Defined in spawnTerminal.ts:6*
 
 **Parameters:**
 
-| Name | Type                                                    |
-| ---- | ------------------------------------------------------- |
-| id   | `EventIdType`                                           |
-| arg  | [SpawnTerminalArg](_spawnterminal_.spawnterminalarg.md) |
+| Name | Type |
+| ------ | ------ |
+| id | `EventIdType` |
+| arg | [SpawnTerminalArg](_spawnterminal_.spawnterminalarg.md) |
 
 **Returns:** `Promise`<[SpawnTerminalReturn](_spawnterminal_.spawnterminalreturn.md)>
 
----
+___
+
