@@ -1,5 +1,5 @@
 import { Emit, EventType } from "@emit-js/emit"
-import { IPty, spawn } from "node-pty"
+import { spawn } from "node-pty"
 
 declare module "@emit-js/emit" {
   interface Emit {

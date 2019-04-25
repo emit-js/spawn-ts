@@ -1,8 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { log } from "@emit-js/log"
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { store } from "@emit-js/store"
-
 import { Emit, EventType } from "@emit-js/emit"
 import { spawnTerminal } from "./spawnTerminal"
 
@@ -50,7 +45,7 @@ export class Spawn {
       out = JSON.parse(out)
     }
 
-    if (emit.log && !quiet) {
+    if (!quiet) {
       const level = err ? "warn" : "info"
       const messages = [
         `command: ${arg.command}${
@@ -62,7 +57,7 @@ export class Spawn {
       ]
 
       for (const message of messages) {
-        emit.log(["spawn", e.id], level, message)
+        emit.emit(["log", "spawn", e.id], level, message)
       }
     }
 
@@ -76,8 +71,8 @@ export class Spawn {
 
     const output = { code, err, out, signal }
 
-    if (emit.set && save) {
-      await emit.set(e.id, output)
+    if (save) {
+      await emit.emit(["set", e.id], output)
     }
 
     return output
