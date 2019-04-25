@@ -16,12 +16,12 @@
   "license": "MIT",
   "homepage": "https://github.com/emit-js/spawn-ts#readme",
   "scripts": {
+    "build": "tsc",
+    "docs": "typedoc --out docs --media media --theme markdown src/*.ts",
     "fix": "npm run lint -- --fix",
     "lint": "eslint --ignore-path .gitignore --ext=js .",
     "pretty": "prettier --write **/*.css **/*.json **/*.md",
-    "test": "jest",
-    "build": "tsc",
-    "docs": "typedoc --out docs --media media --theme markdown src/*.ts"
+    "test": "jest"
   },
   "dependencies": {
     "node-pty": "0.8.1"
