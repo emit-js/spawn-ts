@@ -17,7 +17,7 @@ export interface SpawnArg {
   exit?: boolean
   json?: boolean
   quiet?: boolean
-  save: boolean
+  save?: boolean
 }
 
 export interface SpawnReturn {
