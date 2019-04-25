@@ -3,7 +3,7 @@ import { log } from "@emit-js/log"
 import { store } from "@emit-js/store"
 import { spawn } from "../"
 
-var emit: Emit
+let emit: Emit
 
 beforeEach((): void => {
   emit = new Emit()
