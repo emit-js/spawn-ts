@@ -1,4 +1,4 @@
-# spawn-ts
+# @emit-js/spawn
 
 emit process spawn
 
