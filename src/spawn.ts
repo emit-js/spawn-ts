@@ -51,7 +51,7 @@ export class Spawn {
         `command: ${arg.command}${
           args ? " " + args.join(" ") : ""
         }`,
-        `cwd: ${cwd}`,
+        `cwd: ${cwd || process.cwd()}`,
         `code: ${code}`,
         `output:\n${out}`,
       ]
