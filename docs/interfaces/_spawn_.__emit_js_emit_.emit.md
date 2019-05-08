@@ -22,7 +22,7 @@
 
 ▸ **spawn**(id: *`EventIdType`*, arg: *[SpawnArg](_spawn_.spawnarg.md)*): `Promise`<[SpawnReturn](_spawn_.spawnreturn.md)>
 
-*Defined in spawn.ts:6*
+*Defined in spawn.ts:75*
 
 **Parameters:**
 

@@ -10,19 +10,19 @@
 
 ### Methods
 
-* [spawn](_spawn_.spawn.md#spawn)
+* [listener](_spawn_.spawn.md#listener)
 
 ---
 
 ## Methods
 
-<a id="spawn"></a>
+<a id="listener"></a>
 
-###  spawn
+###  listener
 
-▸ **spawn**(e: *`EventType`*, arg: *[SpawnArg](../interfaces/_spawn_.spawnarg.md)*): `Promise`<[SpawnReturn](../interfaces/_spawn_.spawnreturn.md)>
+▸ **listener**(e: *`EventType`*, arg: *[SpawnArg](../interfaces/_spawn_.spawnarg.md)*): `Promise`<[SpawnReturn](../interfaces/_spawn_.spawnreturn.md)>
 
-*Defined in spawn.ts:31*
+*Defined in spawn.ts:22*
 
 **Parameters:**
 

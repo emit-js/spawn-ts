@@ -28,7 +28,7 @@
 
 **● args**: *`string`[]*
 
-*Defined in spawn.ts:14*
+*Defined in spawn.ts:5*
 
 ___
 <a id="command"></a>
@@ -37,7 +37,7 @@ ___
 
 **● command**: *`string`*
 
-*Defined in spawn.ts:15*
+*Defined in spawn.ts:6*
 
 ___
 <a id="cwd"></a>
@@ -46,7 +46,7 @@ ___
 
 **● cwd**: *`string`*
 
-*Defined in spawn.ts:16*
+*Defined in spawn.ts:7*
 
 ___
 <a id="exit"></a>
@@ -55,7 +55,7 @@ ___
 
 **● exit**: *`boolean`*
 
-*Defined in spawn.ts:17*
+*Defined in spawn.ts:8*
 
 ___
 <a id="json"></a>
@@ -64,7 +64,7 @@ ___
 
 **● json**: *`boolean`*
 
-*Defined in spawn.ts:18*
+*Defined in spawn.ts:9*
 
 ___
 <a id="quiet"></a>
@@ -73,7 +73,7 @@ ___
 
 **● quiet**: *`boolean`*
 
-*Defined in spawn.ts:19*
+*Defined in spawn.ts:10*
 
 ___
 <a id="save"></a>
@@ -82,7 +82,7 @@ ___
 
 **● save**: *`boolean`*
 
-*Defined in spawn.ts:20*
+*Defined in spawn.ts:11*
 
 ___
 

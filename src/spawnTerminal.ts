@@ -1,15 +1,6 @@
 import { Emit, EventType } from "@emit-js/emit"
 import { spawn } from "node-pty"
 
-declare module "@emit-js/emit" {
-  interface Emit {
-    spawnTerminal(
-      id: EventIdType,
-      arg: SpawnTerminalArg
-    ): Promise<SpawnTerminalReturn>
-  }
-}
-
 export interface SpawnTerminalArg {
   args?: string[]
   command: string
@@ -55,6 +46,15 @@ export class SpawnTerminal {
   }
 }
 
+declare module "@emit-js/emit" {
+  interface Emit {
+    spawnTerminal(
+      id: EventIdType,
+      arg: SpawnTerminalArg
+    ): Promise<SpawnTerminalReturn>
+  }
+}
+
 export function spawnTerminal(emit: Emit): void {
   const spawnTerminal = new SpawnTerminal()
   emit.any(
@@ -62,3 +62,5 @@ export function spawnTerminal(emit: Emit): void {
     spawnTerminal.spawnTerminal.bind(spawnTerminal)
   )
 }
+
+export const listen = spawnTerminal

@@ -17,11 +17,27 @@
 * [SpawnTerminalArg](../interfaces/_spawnterminal_.spawnterminalarg.md)
 * [SpawnTerminalReturn](../interfaces/_spawnterminal_.spawnterminalreturn.md)
 
+### Variables
+
+* [listen](_spawnterminal_.md#listen)
+
 ### Functions
 
 * [spawnTerminal](_spawnterminal_.md#spawnterminal-1)
 
 ---
+
+## Variables
+
+<a id="listen"></a>
+
+### `<Const>` listen
+
+**● listen**: *[spawnTerminal](_spawnterminal_.md#spawnterminal-1)* =  spawnTerminal
+
+*Defined in spawnTerminal.ts:66*
+
+___
 
 ## Functions
 

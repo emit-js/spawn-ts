@@ -17,11 +17,27 @@
 * [SpawnArg](../interfaces/_spawn_.spawnarg.md)
 * [SpawnReturn](../interfaces/_spawn_.spawnreturn.md)
 
+### Variables
+
+* [listen](_spawn_.md#listen)
+
 ### Functions
 
 * [spawn](_spawn_.md#spawn-1)
 
 ---
+
+## Variables
+
+<a id="listen"></a>
+
+### `<Const>` listen
+
+**● listen**: *[spawn](_spawn_.md#spawn-1)* =  spawn
+
+*Defined in spawn.ts:89*
+
+___
 
 ## Functions
 

@@ -25,7 +25,7 @@
 
 **● code**: *`number`*
 
-*Defined in spawn.ts:24*
+*Defined in spawn.ts:15*
 
 ___
 <a id="err"></a>
@@ -34,7 +34,7 @@ ___
 
 **● err**: *`boolean`*
 
-*Defined in spawn.ts:25*
+*Defined in spawn.ts:16*
 
 ___
 <a id="out"></a>
@@ -43,7 +43,7 @@ ___
 
 **● out**: *`string`*
 
-*Defined in spawn.ts:26*
+*Defined in spawn.ts:17*
 
 ___
 <a id="signal"></a>
@@ -52,7 +52,7 @@ ___
 
 **● signal**: *`number`*
 
-*Defined in spawn.ts:27*
+*Defined in spawn.ts:18*
 
 ___
 

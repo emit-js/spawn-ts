@@ -22,7 +22,7 @@
 
 ▸ **spawnTerminal**(id: *`EventIdType`*, arg: *[SpawnTerminalArg](_spawnterminal_.spawnterminalarg.md)*): `Promise`<[SpawnTerminalReturn](_spawnterminal_.spawnterminalreturn.md)>
 
-*Defined in spawnTerminal.ts:6*
+*Defined in spawnTerminal.ts:51*
 
 **Parameters:**
 

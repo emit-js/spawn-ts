@@ -24,7 +24,7 @@
 
 **● code**: *`number`*
 
-*Defined in spawnTerminal.ts:21*
+*Defined in spawnTerminal.ts:12*
 
 ___
 <a id="out"></a>
@@ -33,7 +33,7 @@ ___
 
 **● out**: *`string`*
 
-*Defined in spawnTerminal.ts:22*
+*Defined in spawnTerminal.ts:13*
 
 ___
 <a id="signal"></a>
@@ -42,7 +42,7 @@ ___
 
 **● signal**: *`number`*
 
-*Defined in spawnTerminal.ts:23*
+*Defined in spawnTerminal.ts:14*
 
 ___
 

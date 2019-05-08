@@ -25,7 +25,7 @@
 
 **● args**: *`string`[]*
 
-*Defined in spawnTerminal.ts:14*
+*Defined in spawnTerminal.ts:5*
 
 ___
 <a id="command"></a>
@@ -34,7 +34,7 @@ ___
 
 **● command**: *`string`*
 
-*Defined in spawnTerminal.ts:15*
+*Defined in spawnTerminal.ts:6*
 
 ___
 <a id="cwd"></a>
@@ -43,7 +43,7 @@ ___
 
 **● cwd**: *`string`*
 
-*Defined in spawnTerminal.ts:16*
+*Defined in spawnTerminal.ts:7*
 
 ___
 <a id="env"></a>
@@ -52,7 +52,7 @@ ___
 
 **● env**: *`Record`<`string`, `string`>*
 
-*Defined in spawnTerminal.ts:17*
+*Defined in spawnTerminal.ts:8*
 
 ___
 
