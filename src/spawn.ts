@@ -48,7 +48,7 @@ export class Spawn {
       ]
 
       for (const message of messages) {
-        emit.emit(["log", "spawn", e.id], level, message)
+        emit.emit(["log", e.id], level, message)
       }
     }
 
@@ -63,7 +63,7 @@ export class Spawn {
     const output = { code, err, out, signal }
 
     if (save) {
-      await emit.emit(["set", e.id], output)
+      await emit.emit(["set", e.id.slice(0, -1)], output)
     }
 
     return output
